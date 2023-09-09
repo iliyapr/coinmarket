@@ -1,0 +1,79 @@
+1694273325034	geckodriver	INFO	Listening on 127.0.0.1:64582
+1694273328087	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64583" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\iliya\\AppData\\Local\\Temp\\rust_mozprofile9jWIqK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694273328641	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694273328718	Marionette	INFO	Listening on port 64597
+WebDriver BiDi listening on ws://127.0.0.1:64583
+Read port: 64597
+1694273328952	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64583/devtools/browser/d2f17349-b565-4e0b-b923-aa5eeba0feac
+JavaScript warning: https://s2.coinmarketcap.com/_next/static/chunks/pages/_app-9ead51dbff5d12be.js, line 1: Script terminated by timeout at:
+11426/tt/<@https://s2.coinmarketcap.com/_next/static/chunks/pages/_app-9ead51dbff5d12be.js:1:7097
+e@https://s2.coinmarketcap.com/_next/static/chunks/pages/_app-9ead51dbff5d12be.js:1:6957
+
+1694273338720	Marionette	INFO	Stopped listening on port 64597
+Dynamically enable window occlusion 1
+1694273720751	geckodriver	INFO	Listening on 127.0.0.1:65329
+1694273723801	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65330" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\iliya\\AppData\\Local\\Temp\\rust_mozprofileuo7I85"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694273724278	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694273724354	Marionette	INFO	Listening on port 65339
+Read port: 65339
+WebDriver BiDi listening on ws://127.0.0.1:65330
+1694273724418	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:65330/devtools/browser/337ff126-13aa-453e-93b1-930358b0713a
+JavaScript warning: https://s2.coinmarketcap.com/_next/static/chunks/pages/_app-9ead51dbff5d12be.js, line 1: Script terminated by timeout at:
+11426/tt/<@https://s2.coinmarketcap.com/_next/static/chunks/pages/_app-9ead51dbff5d12be.js:1:7097
+e@https://s2.coinmarketcap.com/_next/static/chunks/pages/_app-9ead51dbff5d12be.js:1:6957
+
+1694273798930	Marionette	INFO	Stopped listening on port 65339
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+1694273822269	geckodriver	INFO	Listening on 127.0.0.1:49437
+1694273825326	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49438" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\iliya\\AppData\\Local\\Temp\\rust_mozprofile0LwA8c"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694273825957	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694273826028	Marionette	INFO	Listening on port 49447
+WebDriver BiDi listening on ws://127.0.0.1:49438
+Read port: 49447
+1694273826263	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49438/devtools/browser/8261bb2a-6874-4323-bcc8-239b29fd04fc
+JavaScript warning: https://s2.coinmarketcap.com/_next/static/chunks/22829.69fb62ddbe41741e.js, line 1: Script terminated by timeout at:
+e@https://s2.coinmarketcap.com/_next/static/chunks/22829.69fb62ddbe41741e.js:1:187
+
+1694278152478	Marionette	INFO	Stopped listening on port 49447
+Dynamically enable window occlusion 1
+le46KuyY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694274304596	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694274304674	Marionette	INFO	Listening on port 50717
+WebDriver BiDi listening on ws://127.0.0.1:50708
+Read port: 50717
+1694274304920	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50708/devtools/browser/503151fe-debf-4f4b-b0d5-0685ac7418f2
+1694278153335	Marionette	INFO	Stopped listening on port 50717
+Dynamically enable window occlusion 1
+1694293280786	geckodriver	INFO	Listening on 127.0.0.1:55342
+1694293283803	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55343" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\iliya\\AppData\\Local\\Temp\\rust_mozprofilehvYrxp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694293284350	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694293284424	Marionette	INFO	Listening on port 55351
+WebDriver BiDi listening on ws://127.0.0.1:55343
+Read port: 55351
+1694293284645	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55343/devtools/browser/626b0c69-f462-4bd4-8ae1-0aec30ac3d61
+1694293286948	Marionette	INFO	Stopped listening on port 55351
+Dynamically enable window occlusion 1
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+console.error: (new AbortError("IndexedDB: main/doh-providers list() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+console.error: (new Error("IndexedDB: main/doh-config getLastModified() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
