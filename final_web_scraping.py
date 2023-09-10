@@ -112,7 +112,7 @@ for coin in coins :
 
     official_links = soup.find_all('a' , attrs={'rel':'nofollow noopener'})
     for link in official_links :
-        if 'github' in link.get('href'):
+        if link.text == "GitHub":
             git_hub = link.get('href')
             break
 

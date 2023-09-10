@@ -1,15 +1,3 @@
-'''
-/html/body/div[1]/div[2]/div[1]/div[2]/div/div/div[2]/div[3]/section[2]/div/div[7]/div[2]/div/span[4]
-/html/body/div[1]/div[2]/div[1]/div[2]/div/div/div[2]/div[3]/section[2]/div/div[7]/div[2]/div/span[4]
-<p class="sc-1d3ac72d-3 gQFMuZ text-content"><span data-slate-node="element">[reports: FTX likely to get approval to liquidate it's assets on 13th Sept, though they said they will not going to liquidate in one go most likely certain amount weekly.</span></p>
-/html/body/div[5]/div/div[2]/div
-/html/body/div[5]/div/div[2]/div
-
-div.itVAyl:nth-child(7)
-div.itVAyl:nth-child(7)
-                                                                              
-'''                                                                            
-
 import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -29,10 +17,10 @@ coins = pd.read_csv("coins_200.csv")
 total_links = list()
 total_tags = list()
 
-n = 0 
+
 
 for mainlink in coins["MainLink"] :
-    print(n+1 , ": ")
+
 
 
     driver.get(mainlink)
@@ -90,7 +78,7 @@ for mainlink in coins["MainLink"] :
         
         soup = BeautifulSoup(driver.page_source ,'html.parser')
         tags = soup.find('div',attrs={'class':'sc-16891c57-0 ddQhJW'})
-       # tags = driver.find_element(By.XPATH ,"/html/body/div[5]/div/div[2]/div")
+
         sleep(2)
         tag_title = tags.find_all('span',{'class':'sc-16891c57-0 eltohE base-text'})
         tags_in_each = tags.find_all("div",{"class":"sc-16891c57-0 sc-9ee74f67-0 iGa-diC"})
@@ -100,11 +88,7 @@ for mainlink in coins["MainLink"] :
             s = ','.join(each_group_tags)
             list_tags.setdefault(tag_title[tag_num].text ,s )
         
-        print(list_tags)
-        total_tags.append(list_tags)
-        
-        
-        #info.append([git_hub,list_tags])
+
     except :
         try :
             
@@ -113,22 +97,19 @@ for mainlink in coins["MainLink"] :
             tags = list(map (lambda x:x.text , tags))
             s = ','.join(tags)
             list_tags.setdefault("no_lable",s)
-            print(list_tags)
             total_tags.append(list_tags)
             
         except :
             total_tags.append(list_tags)
 
     
-    n+=1
-    if n>15 :
-        break
+
 
 stop = time()
 
 extra_detail_1 = pd.DataFrame(total_links)
 extra_detail_2 = pd.DataFrame(total_tags)
-extra_detail_1.to_csv("links.csv")
-extra_detail_2.to_csv('tags')
+extra_detail_1.to_csv("total_links.csv",index = False)
+extra_detail_2.to_csv('total_tags.csv',index = False)
 extra_detail = pd.concat([extra_detail_1,extra_detail_2] , axis=1 , join="inner")
 print(stop - start)          
