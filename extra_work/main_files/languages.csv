@@ -1,0 +1,40 @@
+Language_Id,Language
+1,    Contributors
+2,Assembly
+3,C
+4,C#
+5,C++
+6,CMake
+7,Dockerfile
+8,Erlang
+9,Go
+10,HTML
+11,Handlebars
+12,Haskell
+13,Java
+14,JavaScript
+15,Jsonnet
+16,M4
+17,Makefile
+18,Nix
+19,OCaml
+20,Other
+21,PEG.js
+22,PLpgSQL
+23,Pact
+24,Python
+25,Reason
+26,Rich Text Format
+27,Ruby
+28,Rust
+29,SCSS
+30,Sage
+31,Shell
+32,Smarty
+33,Solidity
+34,Standard ML
+35,Starlark
+36,TypeScript
+37,Vue
+38,WebAssembly
+39,tworec
